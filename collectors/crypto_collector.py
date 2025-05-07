@@ -3,7 +3,7 @@ import requests
 import logging
 import os
 from datetime import datetime
-from ..cache.redis_cache import RedisCache
+from cache.redis_cache import RedisCache
 
 logger = logging.getLogger(__name__)
 
