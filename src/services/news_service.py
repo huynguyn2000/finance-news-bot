@@ -1,8 +1,8 @@
 # src/services/news_service.py
 import logging
 
-from src.collectors.crypto_collector import CryptoCollector
-from src.collectors.vnstock_collectors import VNStockCollector
+# src/services/news_service.py
+from ..collectors.crypto_collector import CryptoCollector
 
 logger = logging.getLogger(__name__)
 
