@@ -1,8 +1,6 @@
 # src/services/news_service.py
 import logging
-
-# src/services/news_service.py
-from ..collectors.crypto_collector import CryptoCollector
+from collectors.crypto_collector import CryptoCollector
 
 logger = logging.getLogger(__name__)
 
