@@ -1,7 +1,10 @@
 # src/services/news_service.py
-from src.bot import logger
+import logging
+
 from src.collectors.crypto_collector import CryptoCollector
 from src.collectors.vnstock_collectors import VNStockCollector
+
+logger = logging.getLogger(__name__)
 
 class NewsService:
     def __init__(self):
