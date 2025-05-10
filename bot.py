@@ -28,7 +28,7 @@ Các lệnh có sẵn:
 
     async def get_news(self, update, context):
         await update.message.reply_text("🔄 Đang tổng hợp tin tức...")
-        news = await self.news_service.get_latest_news(limit=5)
+        news = await self.news_service.get_stock_news(limit=5)
         await update.message.reply_text(news, disable_web_page_preview=True)
 
 
